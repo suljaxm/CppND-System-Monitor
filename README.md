@@ -3,7 +3,8 @@
 This project implements a process manager for the ubuntu, similar to **htop**. and depend on **ncurses** to display information inside the console.
 
 
-<div align=center><img width="350" height="350" src="./images/displaysystem.png"/></div>
+<div align=center><img width="550" height="350" src="./images/displaysystem.png"/></div>
+
 ## Dependencies
 
 * cmake >= 2.6
