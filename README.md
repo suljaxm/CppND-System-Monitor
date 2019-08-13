@@ -31,5 +31,3 @@ make
 ```
 ### Running
 Run the resulting executable: `./build/monitor`
-![Starting System Monitor](images/starting_monitor.png)
-
