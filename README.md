@@ -2,12 +2,14 @@
 
 Starter code for System Monitor Project in the C++ OOP course. Most of the code is provided for you here. Follow along with the classroom lesson to fill out the `ProcessParser` and `Process` classes to complete your project!
 
+<div align=center><img width="550" height="350" src="./monitor_v0.gif"/></div>
+
 ## To setup and compile in Udacity Ubuntu workspace:
 
 1. Clone repository into `/home/workspace/`
 ```
 cd /home/workspace/
-git clone https://github.com/udacity/CppND-System-Monitor
+git clone -b 0.1 https://github.com/suljaxm/CppND-System-Monitor.git
 ```
 2. Follow along with the lesson and make sure you complete the `ProcessParser` and `Process` classes before attempting to run the project.
 
