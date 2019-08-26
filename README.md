@@ -1,33 +1,29 @@
 # CppND-System-Monitor
 
-This project implements a process manager for the ubuntu, similar to **htop**. and depend on **ncurses** to display information inside the console.
+Starter code for System Monitor Project in the C++ OOP course. Most of the code is provided for you here. Follow along with the classroom lesson to fill out the `ProcessParser` and `Process` classes to complete your project!
 
+## To setup and compile in Udacity Ubuntu workspace:
 
-<div align=center><img width="550" height="350" src="./images/displaysystem.png"/></div>
-
-## Dependencies
-
-* cmake >= 2.6
-* [ncurses](https://www.gnu.org/software/ncurses/)
-    ```
-    sudo apt install libncurses5-dev libncursesw5-dev
-    ```
-## Cloning
-
-Clone the project repository: `git clone https://github.com/suljaxm/CppND-System-Monitor.git`
-
-
-## Compiling and Running
-
-### Compiling
-To compile the project, first, create a `build` directory and change to that directory:
+1. Clone repository into `/home/workspace/`
 ```
-mkdir build && cd build
+cd /home/workspace/
+git clone https://github.com/udacity/CppND-System-Monitor
 ```
-From within the `build` directory, then run `cmake` and `make` as follows:
+2. Follow along with the lesson and make sure you complete the `ProcessParser` and `Process` classes before attempting to run the project.
+
+3. Install `ncurses` package
 ```
-cmake ..
-make
+sudo apt-get install libncurses5-dev libncursesw5-dev
 ```
-### Running
-Run the resulting executable: `./build/monitor`
+4. Compile and run
+```
+g++ -std="c++17" main.cpp -lncurses
+./a.out
+```
+5. In case of error that looks like the following: 
+```
+root@77e30fca8a01:/home/workspace/CppND-Object-Oriented# ./a.out
+*** %n in writable segment detected ***
+                                      Aborted (core dumped)
+```
+just keep trying `./a.out` and it should work eventually!
